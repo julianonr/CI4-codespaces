@@ -1,20 +1,5 @@
-# Apache + PHP 7.4.33 + MySQL + phpMyAdmin
+# Apache + PHP 7.4.33 + MySQL + phpMyAdmin + Codeigniter 4
 > Ambiente local de desenvolvimento com Docker
-
-# Criar e levantar os containers
-docker-compose up -d
-
-# Iniciar o container Docker
-docker-compose start
-
-# Parar o container Docker
-docker-compose stop
-
-# Parar e remover containers da máquina
-docker-compose down
-
-
-
 
 **Referências**
 1. [Imagem - MySQL](https://hub.docker.com/_/mysql)
