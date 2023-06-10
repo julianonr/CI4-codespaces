@@ -1,3 +1,3 @@
 <?php
-echo "2<br>";
-    phpinfo();
+echo "index dentro da www<br>";
+// phpinfo();
