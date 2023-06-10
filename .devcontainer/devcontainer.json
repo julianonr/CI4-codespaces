@@ -3,10 +3,7 @@
   "dockerComposeFile": "docker-compose.yml",
   "service": "app",
   "forwardPorts": [8080, 8081],
-  "postCreateCommand": [
-      "composer create-project codeigniter4/appstarter my_project_name",
-      "chmod -R 777 /var/www/html/ci4/writable"
-  ],
+  "postCreateCommand": "chmod -R 777 /var/www/html/ci4/writable",
   "extensions": [
       "felixfbecker.php-intellisense"
   ]
